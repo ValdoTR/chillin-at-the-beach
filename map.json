@@ -1017,19 +1017,19 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"Map for dev event of SOGETI"
+         "value":"Suitable for up to 300 users.\n\nAre you tired of working between four walls? With this huge map you will not be disappointed. It is located on a beach with fine sand and has everything you need for an event, meetings or remote work."
         }, 
         {
          "name":"mapImage",
          "type":"string",
          "value":"map.png"
-        }, 
-        {
-         "name":"mapLink",
-         "type":"string",
-         "value":"TODO"
-        }, 
-        {
+        },
+   {
+     "name":"mapLink",
+     "type":"string",
+     "value":"https:\/\/workadventure.github.io\/scripting-api-extra\/map.json"
+   },
+   {
          "name":"mapName",
          "type":"string",
          "value":"Chillin at the beach"
