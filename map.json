@@ -831,8 +831,8 @@
          "objects":[
                 {
                  "height":0,
-                 "id":10,
-                 "name":"exitUrl1",
+                 "id":11,
+                 "name":"exitNorthURL",
                  "point":true,
                  "properties":[
                         {
@@ -843,24 +843,67 @@
                         {
                          "name":"description",
                          "type":"string",
-                         "value":"A room URL starts with \"\/@\/\""
+                         "value":"A room URL starts with \"\/@\/\".\ne.g.: \"\/@\/my-organization\/my-world\/my-room\""
                         }, 
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"First exit URL"
+                         "value":"North exit URL"
                         }, 
                         {
                          "name":"persist",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"writableBy",
+                         "type":"string",
+                         "value":"editor"
                         }],
                  "rotation":0,
                  "type":"variable",
                  "visible":true,
                  "width":0,
-                 "x":2674,
-                 "y":54
+                 "x":2681,
+                 "y":46
+                }, 
+                {
+                 "height":0,
+                 "id":12,
+                 "name":"exitSouthURL",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"A room URL starts with \"\/@\/\".\ne.g.: \"\/@\/my-organization\/my-world\/my-room\""
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"South exit URL"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"writableBy",
+                         "type":"string",
+                         "value":"editor"
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":562,
+                 "y":1534
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -963,7 +1006,7 @@
          "y":0
         }],
  "nextlayerid":109,
- "nextobjectid":11,
+ "nextobjectid":13,
  "orientation":"orthogonal",
  "properties":[
         {
